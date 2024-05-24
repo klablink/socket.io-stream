@@ -1,6 +1,6 @@
 {
   "name": "socket.io-stream",
-  "version": "0.9.1",
+  "version": "0.10.0",
   "description": "stream for socket.io",
   "author": "Naoyuki Kanezawa <naoyuki.kanezawa@gmail.com>",
   "contributors": [
@@ -37,10 +37,10 @@
     "blob": "0.0.4",
     "browserify": "~13.1.0",
     "expect.js": "~0.3.1",
-    "mocha": "~3.0.2",
-    "socket.io": "~1.4.8",
-    "socket.io-client": "~1.4.8",
+    "mocha": "~10.4.0",
+    "socket.io": "~4.7.5",
+    "socket.io-client": "~4.7.5",
     "zuul": "~3.11.1",
-    "zuul-ngrok": "~4.0.0"
+    "zuul-ngrok": "git+https://github.com/klablink/zuul-ngrok.git#bump-ngrok"
   }
 }

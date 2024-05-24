@@ -63,6 +63,7 @@ server.on('connection', function(socket) {
   ss(socket).on('serverError', function(stream, msg) {
     stream.emit('error', new Error(msg));
   });
+
 });
 
 function echo(v) {
